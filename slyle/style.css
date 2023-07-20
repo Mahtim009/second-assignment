@@ -156,4 +156,18 @@ banner-area .icon p{
    border-radius: 8px;
 
  }
- 
+ footer{
+   display: flex;
+   justify-content: space-between;
+   background-color: #0B0223;
+   padding: 40px;
+   margin-top: 20px;
+ }
+ footer>ul{
+   display: flex;
+  gap: 20px;
+  color: aliceblue;
+ }
+ footer>ul li{
+   text-decoration: none;
+ }
