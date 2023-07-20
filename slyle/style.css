@@ -1,0 +1,159 @@
+/* shared css*/
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+.heading-weight{
+    font-weight: 700;
+}
+.color{
+color: #F948B2;
+}
+/*nav-area*/
+nav-area{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+.nav-icon{
+    display: flex;
+
+}
+
+.nav-list{
+    display: flex;
+}
+.nav-bar .nav-list a{
+    padding-left: 30px;
+    padding-right: 10px;
+   text-decoration: none;
+   color: #3C354F;;
+}
+.follow{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 230px;
+    height: 20px;
+}
+/*banner-area*/
+.icon{
+display:flex;
+
+}
+banner-area{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color:rgba(241, 68, 174, 0.03);
+    width:100%;
+    height: 600px;
+}
+banner-area h1{
+color:#F948B2;
+text-align: center;
+font-size: 78px;
+font-weight: 600;
+}
+banner-area h3{
+    color: #0B0223;
+    text-align: center;
+    font-size: 40px;
+}
+banner-area .icon p{
+    color: #534C64;
+}
+.sign-in{
+   background: #FF42A5;
+   color: white;
+   margin: 20px;
+   padding: 5px 10px;
+   border-color:#F948B2;
+   border-radius: 8px;
+}
+.go-button{
+    background:#4EC5F7;
+    color: white;
+    margin: 20px;
+    padding: 5px 10px;
+    border-color:#4EC5F7;
+    border-radius: 8px;
+ }
+ /*main-section*/
+ .section-info{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 50px;
+ }
+ 
+ .card-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+ }
+ .card-area img{
+    width: 200px;
+ }
+ /*main-area*/
+ main-area{
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-left: 50px;
+    margin-left: 50px;
+    margin-top: 100px;
+
+ }
+ .main-info{
+    justify-content: center;
+    text-align: center;
+ }
+ /*.box-1{
+    background-image: url('images/Rectangle 55.png');
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    border: 2px cornflowerblue solid;
+ }
+ .box-2{
+    background-image: url("images/Rectangle 66.png");
+    width: 200px;
+    height: 200px;
+    border: 2px cornflowerblue solid;
+ }*/
+ .photo-area{
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height:50%;
+ }
+
+ 
+ .box-2{
+   width: 400px;
+    position: relative;
+    bottom: 150px;
+ }
+ /*careers-area*/
+ .careers-area{
+   display: flex;
+   background-color: #FF42A5;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .career-info{
+   justify-content: center;
+   align-items: center;
+   padding-left: 50px;
+ }
+ .btn{
+   color:#F948B2;
+   background-color: aliceblue;
+   border: #F948B2;
+   border-radius: 8px;
+
+ }
+ 
